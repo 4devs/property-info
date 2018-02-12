@@ -1,0 +1,43 @@
+{
+    "name": "fdevs/property-info",
+    "type": "library",
+    "description": "PropertyInfo extracts information about PHP class' properties using metadata of popular sources.",
+    "keywords": [
+        "property",
+        "type",
+        "PHPDoc",
+        "symfony",
+        "validator",
+        "doctrine"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrey Samusev",
+            "email": "andrey_simfi@list.ru",
+            "homepage": "http://andrey.4devs.io"
+        },
+        {
+            "name": "4devs Community",
+            "homepage": "https://github.com/4devs/property-info/contributors"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "symfony/property-info": "^3.4"
+    },
+    "require-dev": {},
+    "suggest": {},
+    "config":{
+        "bin-dir": "bin",
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "FDevs\\PropertyInfo\\": ""
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    }
+}
